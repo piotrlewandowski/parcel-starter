@@ -5,6 +5,7 @@ Simple Parcel bundler Starter. It contains:
 - [x] Live Reloading
 - [x] Production ready code build
 - [x] Automatic HTML generation
+- [x] Sass and SCSS support
 
 ## Prerequisites
 
