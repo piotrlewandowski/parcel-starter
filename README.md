@@ -2,6 +2,8 @@
 
 Simple Parcel bundler Starter. It contains:
 - [x] Latest Parcel (v1.12.4) with build-in development server
+- [x] Babel 7
+- [x] ECMAScript 6+ support
 - [x] Live Reloading
 - [x] Production ready code build
 - [x] Automatic HTML generation

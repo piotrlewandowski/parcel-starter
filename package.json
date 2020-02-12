@@ -7,7 +7,7 @@
     "clean": "rimraf dist",
     "start": "npm run dev",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "npm run clean && parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/piotrlewandowski/parcel-starter#readme",
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "parcel-bundler": "^1.12.4",
     "rimraf": "^3.0.2",
     "sass": "^1.25.0"
