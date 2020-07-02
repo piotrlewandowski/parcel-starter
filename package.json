@@ -1,0 +1,31 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "description": "Simple Parcel bundler Starter",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "start": "npm run dev",
+    "dev": "parcel src/index.html",
+    "build": "npm run clean && parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrlewandowski/parcel-starter.git"
+  },
+  "keywords": [],
+  "author": "Piotr Lewandowski <contact@piotrlewandowski.info> (piotrlewandowski.info)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/piotrlewandowski/parcel-starter/issues"
+  },
+  "homepage": "https://github.com/piotrlewandowski/parcel-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-notifier": "^1.0.0",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.9"
+  }
+}
