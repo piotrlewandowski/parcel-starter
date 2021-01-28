@@ -9,6 +9,8 @@ Simple Parcel bundler Starter. It contains:
 - [x] Automatic HTML generation
 - [x] Sass and SCSS support
 - [x] Separate CSS stylesheets generation
+- [x] ES6 linting
+- [x] Prettier
 - [x] Linting commit messages on commit
 
 ## Prerequisites

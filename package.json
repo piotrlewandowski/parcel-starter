@@ -7,7 +7,9 @@
     "clean": "rimraf dist",
     "start": "npm run dev",
     "dev": "parcel src/index.html",
-    "build": "npm run clean && parcel build src/index.html"
+    "build": "npm run clean && parcel build src/index.html",
+    "eslint:check": "eslint --format friendly --ignore-path .gitignore --ext .js src/",
+    "eslint:fix": "eslint --fix --format friendly --ignore-path .gitignore --ext .js src/"
   },
   "repository": {
     "type": "git",
@@ -22,12 +24,18 @@
   "homepage": "https://github.com/piotrlewandowski/parcel-starter#readme",
   "devDependencies": {
     "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-formatter-friendly": "^7.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "husky": "^4.3.8",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-notifier": "^1.0.0",
+    "prettier": "2.2.1",
     "rimraf": "^3.0.2",
     "sass": "^1.32.5"
   }
