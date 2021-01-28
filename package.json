@@ -9,7 +9,9 @@
     "dev": "parcel src/index.html",
     "build": "npm run clean && parcel build src/index.html",
     "eslint:check": "eslint --format friendly --ignore-path .gitignore --ext .js src/",
-    "eslint:fix": "eslint --fix --format friendly --ignore-path .gitignore --ext .js src/"
+    "eslint:fix": "eslint --fix --format friendly --ignore-path .gitignore --ext .js src/",
+    "stylelint:check": "stylelint src/styles/**/*.scss",
+    "stylelint:fix": "stylelint src/styles/**/*.scss --fix"
   },
   "repository": {
     "type": "git",
@@ -38,6 +40,8 @@
     "parcel-plugin-notifier": "^1.0.0",
     "prettier": "2.2.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.32.5"
+    "sass": "^1.32.5",
+    "stylelint": "^13.9.0",
+    "stylelint-config-standard": "^20.0.0"
   }
 }

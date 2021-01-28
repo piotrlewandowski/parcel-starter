@@ -11,6 +11,7 @@ Simple Parcel bundler Starter. It contains:
 - [x] Sass and SCSS support
 - [x] Separate CSS stylesheets generation
 - [x] ES6 linting
+- [x] Stylelint
 - [x] Prettier
 - [x] Linting files and commit messages on commit
 
