@@ -1,0 +1,22 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "max-len": ["warn", { "code": 80, "ignoreComments": true }],
+    "no-console": ["error", { "allow": ["error", "warn", "info"] }],
+    "no-multiple-empty-lines": ["warn", { "max": 1 }],
+    "no-undef": "error",
+    "quotes": ["error", "single"]
+  }
+}
