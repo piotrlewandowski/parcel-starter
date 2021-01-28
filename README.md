@@ -1,6 +1,7 @@
 # Parcel Starter
 
 Simple Parcel bundler Starter. It contains:
+
 - [x] Latest Parcel (v1.12.4) with build-in development server
 - [x] Babel 7
 - [x] ECMAScript 6+ support
@@ -11,11 +12,11 @@ Simple Parcel bundler Starter. It contains:
 - [x] Separate CSS stylesheets generation
 - [x] ES6 linting
 - [x] Prettier
-- [x] Linting commit messages on commit
+- [x] Linting files and commit messages on commit
 
 ## Prerequisites
 
-* [Node](https://nodejs.org/) (Make sure you have the node 12+ installed)
+- [Node](https://nodejs.org/) (Make sure you have the node 12+ installed)
 
 ## Getting Started
 
